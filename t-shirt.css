@@ -1,0 +1,63 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-repeat: no-repeat;
+  background-color: rgb(211, 230, 220);
+  background-image: url("./assets/tshirt.png");
+  background-size: cover;
+  margin: 0 40%;
+  padding: 0;
+  text-align: justify;
+}
+.centered-content {
+  display: inline-block;
+  vertical-align: middle;
+}
+table {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="button"] {
+  background-color: #5dc961;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="reset"] {
+  background-color: #52b7d6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+input[type="reset"]:hover {
+  background-color: #4595a0;
+}
